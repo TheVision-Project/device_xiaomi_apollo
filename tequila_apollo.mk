@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/tequila/config/common_full_phone.mk)
 
 # tequilaOS props
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
